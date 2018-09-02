@@ -8,6 +8,7 @@ namespace PooVueling
 {
     public class Calculadora : ICalculadora
     {
+
         public int Division(int num1, int num2)
         {
             if (num2 == 0)
@@ -31,5 +32,11 @@ namespace PooVueling
         {
             return num1 + num2;
         }
+
+        public int Cuadrado(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+
     }
 }
